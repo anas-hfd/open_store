@@ -9,7 +9,7 @@ const Navbar = () => {
     const { colorMode, toggleColorMode } = useColorMode();
 
   return (
-    <Container maxW={"1140px"} px={4}>
+    <Container maxW={"1140px"} px={4} >
         <Flex
             h={16}
             alignItems={"center"}
@@ -36,10 +36,11 @@ const Navbar = () => {
             <Button>
                 <PlusSquareIcon fontSize={20} />
             </Button>
+            </Link>
             <Button onClick={toggleColorMode}>
                 {colorMode === "light" ? <IoMoon /> : <LuSun size="20" />}
             </Button>
-            </Link>
+           
         </HStack>
 
         </Flex>
