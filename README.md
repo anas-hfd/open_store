@@ -43,3 +43,4 @@ Deployed the application using Render, learning the process of deployment for fu
 Conclusion
 Open Store is a practical project to build a full-stack application using modern web development tools. It combines a robust backend with a dynamic, interactive frontend, offering valuable experience in both server and client-side development.
 
+Project link: https://open-store-25v3.onrender.com/
